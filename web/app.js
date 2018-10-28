@@ -2238,7 +2238,7 @@ function webViewerKeyDown(evt) {
           turnOnlyIfPageFit = true;
         }
         /* falls through */
-      case 75: // 'k'
+      case 85: // 'u'
       case 80: // 'p'
         turnPage = -1;
         break;
@@ -2274,7 +2274,7 @@ function webViewerKeyDown(evt) {
           turnOnlyIfPageFit = true;
         }
         /* falls through */
-      case 74: // 'j'
+      case 68: // 'd'
       case 78: // 'n'
         turnPage = 1;
         break;
