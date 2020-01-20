@@ -1,10 +1,17 @@
 {
   "extends": [
-    ../.eslintrc
+    "../.eslintrc"
   ],
 
   "rules": {
+    // Plugins
+    "import/no-unresolved": ["error", { "ignore": ["pdfjs-lib"]}],
+
+    // Stylistic Issues
+    "no-nested-ternary": "error",
+
     // ECMAScript 6
     "no-var": "error",
+    "prefer-const": "error",
   },
 }
